@@ -12,11 +12,11 @@ from gnewsclient import gnewsclient
 client = gnewsclient.NewsClient(max_results=3)
 
 import pyowm
-owm = pyowm.OWM('6f6d5f66162ddf2c5f83c5a0eb975eeb')
+#owm = pyowm.OWM('your key')
 
 from pymongo import MongoClient
 
-dBclient = MongoClient("mongodb+srv://user:user@cluster0-ubxyw.mongodb.net/test?retryWrites=true&w=majority")
+dBclient = MongoClient("mongo db server")
 db = dBclient.get_database('chatbot')
 query_record = db.requested_queries
 pic_record = db.pic_info
