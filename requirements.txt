@@ -29,7 +29,7 @@ protobuf==3.8.0
 PTable==0.9.2
 pyasn1==0.4.5
 pyasn1-modules==0.2.5
-PyJWT==1.7.1
+PyJWT==2.4.0
 pymongo==3.8.0
 pyowm==2.10.0
 PySocks==1.7.0
